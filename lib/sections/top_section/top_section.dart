@@ -27,8 +27,8 @@ class _TopSectionState extends State<TopSection> {
       ),
       child: Column(
         children: [
-          Menu(),
-          SizedBox(height: 50,),
+          const Menu(),
+          const SizedBox(height: 50,),
           Row(
             children: [
               Padding(
@@ -38,7 +38,7 @@ class _TopSectionState extends State<TopSection> {
             ],
           ),
           // const SizedBox(height: 250,),
-          Container(
+          SizedBox(
             height: size.height * 0.5,
             child: ModelViewer(
               
@@ -49,7 +49,7 @@ class _TopSectionState extends State<TopSection> {
              autoRotate: true,
             ),
           ),
-          SizedBox(height: 50,)
+          const SizedBox(height: 50,)
         ],
       ),
     );

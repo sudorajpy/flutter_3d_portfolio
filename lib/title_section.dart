@@ -13,7 +13,7 @@ class SectionTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 220,
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,

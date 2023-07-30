@@ -46,7 +46,7 @@ class _OverViewCardState extends State<OverViewCard> {
           children: [
             Image.asset('assets/images/backend.png', height: 100, width: 100,),
             const SizedBox(height: 20),
-            Text('Flutter Developer', style: TextStyle(color: Colors.white, fontSize: 24,fontWeight: FontWeight.bold),),
+            const Text('Flutter Developer', style: TextStyle(color: Colors.white, fontSize: 24,fontWeight: FontWeight.bold),),
           ],
         ),
       ),

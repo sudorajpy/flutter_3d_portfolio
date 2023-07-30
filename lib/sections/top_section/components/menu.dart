@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../constants/constants.dart';
 
 class Menu extends StatefulWidget {
   const Menu({super.key});
@@ -21,7 +20,7 @@ class _MenuState extends State<Menu> {
   ];
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 50,
       width:double.infinity,
       child: Row(
@@ -29,7 +28,7 @@ class _MenuState extends State<Menu> {
         children: List.generate(
                 menuItems.length,
                 (index) =>
-                    TextButton(onPressed: () {}, child: Text(menuItems[index],style: TextStyle(color: Colors.white),)))
+                    TextButton(onPressed: () {}, child: Text(menuItems[index],style: const TextStyle(color: Colors.white),)))
             .toList(),
       ),
     );

@@ -20,9 +20,9 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            TopSection(),
+            const TopSection(),
             // Divider(),
-            OverViewSection(),
+            const OverViewSection(),
 //             ScrollToReveal.withAnimation(
 //     label: 'Scroll$index',
 //     scrollController: _controller,
